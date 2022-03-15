@@ -31,6 +31,14 @@ namespace ichingMPRG2122
 
         public void Mostrar()
         {
+            if ((valor % 2) == 0)
+            {
+                Console.WriteLine("La moneda ha salido cruz");
+            }
+            else
+            {
+                Console.WriteLine("La moneda ha salido cara");
+            }
             Console.WriteLine("La moneda ha salido" + valor);
         }
 
