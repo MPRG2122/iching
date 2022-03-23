@@ -18,6 +18,7 @@ namespace ichingMPRG2122
         private int valor;
         private static Random azar; /*declaro static valor = all objetos d sta clase*/
                                     /* la clase random genera nºs pseudo-aleatorios*/
+                                    /*NO HAGO CAMBIO PERO TRABAJO C DAW1920PRG2*/
 
         public Moneda()
         {
